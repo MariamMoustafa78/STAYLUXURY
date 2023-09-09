@@ -1,0 +1,497 @@
+
+/* _________________________ */
+
+
+.custom-navbar-color {
+    background-color: rgb(35, 33, 70);
+    padding-bottom: 20px;
+  }
+  .navbar-brand-text {
+    color: #FEA116; 
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .navbar-brand-hover:hover {
+    color: #ffffff; 
+  }
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color:#FEA116;
+  } 
+  /* END NAVBAR STYLE */
+
+/* _________________________HOME PAGE STYLE____________________________________ */
+  /* START SLIDER STYLE */
+  .carousel-caption {
+  margin-bottom:200px;
+  }
+  .btn-primary {
+    background-color: #FEA116; 
+    border-color: #ffffff; 
+  }
+  .carousel-caption .btn-primary:hover {
+    background-color:#ffffff ;
+    border-color: #FEA116; 
+  }
+  .carousel-caption .btn-primary:hover {
+    color: #FEA116; 
+  }
+  .btn-light {
+    color: #FEA116;
+ }
+  .carousel-item img {
+    filter: brightness(40%);
+  }
+  /* END NAVBAR STYLE */
+
+
+  /* FIRST SECTION STYLE */
+
+  .boxes-container {
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    margin-right: 20px;
+  }
+  /* icon color change */
+  .text-custom {
+    color: #FEA116; 
+  }
+
+  /*END FIRST SECTION STYLE */
+
+
+ /* START VIDEO SECTION STYLE */
+ .video-container{
+    padding-top: 100px;
+ }
+
+.video-container h6{
+    font-size: 30px;
+}
+ 
+/* END VIDEO SECTION STYLE */
+
+
+/* START OUR SERVICE SECTION STYLE */
+.cards-container{
+    text-align: center;
+}
+.icon-container{
+    text-align: center;
+    padding:40px 0px;
+}
+.card-subtitle {
+    font-weight: bold; color: rgb(35, 33, 70)
+}
+.card {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .card:hover {
+    background-color: #fea116;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  .card:hover .card-subtitle,
+
+  .card:hover .icon-container,
+  .card:hover .fa
+ 
+  {
+    color: #fff;
+  }
+
+ 
+  .fa {
+    transition: color 0.3s ease-in-out;
+  }
+  
+/* END  OUR SERVICE SECTION STYLE */
+
+
+/* START REVIEWS STYLE */
+.reviews-container{
+    padding: 0px 100px;
+ 
+}
+.reviews-cards{
+    opacity: 0.8;
+}
+.card-header{
+    font-weight: bold;
+
+}
+
+/* END REVIEWS STYLE */
+
+/* START LOGIN  SECTION STYLE */
+
+  .login-container {
+    background-color: rgb(35, 33, 70);
+    padding: 100px;
+    display: flex;
+  }
+
+  .login-form, .register-form {
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    font-weight: bold;
+    color: #fea116;
+    margin-bottom: 20px;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #fea116;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #e57f17;
+  }
+  /* END LOGIN  SECTION STYLE */
+
+
+  /*START FOOTER SECTION STYLE  */
+  
+  /* Footer Styles */
+  .footer {
+    background-color: rgb(35, 33, 70);
+    color: #fff;
+    padding: 50px 0;
+  }
+
+  .footer-logo {
+    color: #fea116;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .footer-links a:hover {
+    color: #fea116;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+  }
+
+  .social-icons a {
+    display: inline-block;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .social-icons a:hover {
+    color: #fea116;
+  }
+
+  .footer-disclaimer {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  /* END FOOTER SECTION STYLE */
+
+
+  /* __________________________________ABOUT PAGE_________________________________ */
+ /* FIRST SECTION STYLE */
+ .head-photo-container{
+  text-align: center;
+  padding: 250px 0px;
+  color:rgb(35, 33, 70);
+
+ }
+  /*END  FIRST SECTION STYLE */
+
+
+   /* OUR dept SECTION STYLE */
+   .ourdept-head {
+    text-align: center;
+    padding-top: 30px; 
+    color: rgb(35, 33, 70);
+    
+   }
+   
+    .video-contain .col-6 {
+      position: relative;
+      overflow: hidden;
+    }
+  
+    .video-contain video {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      transition: opacity 0.3s ease-in-out;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    }
+  
+    .video-contain video:hover {
+      opacity: 1;
+    }
+  
+    .video-title {
+      text-align: center;
+      font-size: 20px;
+      color: #fea116;
+      margin-top: 10px;
+    }
+  
+    .video-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+  
+    .video-contain .col-6:hover .video-overlay {
+      opacity: 1;
+    }
+
+
+  
+   /*END  OUR dept SECTION STYLE */  
+  /* ______________________________OUR TEAM PAGE__________________________________________________ */
+  
+
+  /* start article section style */
+.article-container{
+  background-color: rgb(35, 33, 70);
+  color: #ffffff;
+  padding-bottom: 100px;
+}
+
+.article-container h1 , p{
+text-align: center;
+}
+
+.article-container h1 {
+  padding-top: 100px;
+  border-bottom: #FEA116 solid 2px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.article-container p {
+ font-size: 20px;
+ padding-top: 50px;
+}
+
+
+  /*end  article section style */
+
+  /* START WORKFIELDS STYLE */
+  .workfields-container{
+    padding-top: 50px;
+    padding-left: 80px;
+  }
+
+  .field{
+    font-size: 50px;
+    padding-top: 50px;
+    color: #fea116;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+   
+  }
+  
+
+
+  .field-photo img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  
+ 
+ 
+
+  /* END WORKFIELDS STYLE */
+
+
+  /* START EXPLORE OUR TEAM */
+  .btn-square {
+    background-color:rgb(35, 33, 70);
+    color: #fea116;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .btn-square:hover {
+    background-color: #fea116;
+    color: #fff;
+  }
+
+
+  @keyframes moveLeftRight {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-10px); 
+    }
+  }
+
+  .field h1 {
+    position: relative; 
+    animation: moveLeftRight 3s infinite; 
+  }
+  
+   /* END EXPLORE OUR TEAM */
+
+
+   /* ___________________________________ROOM PAGE ___________________________________________ */
+   /* views section style */
+
+
+   .room-card {
+    border: none;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .room-card:hover {
+    transform: scale(1.05);
+
+  }
+  
+  .room-image {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .room-caption {
+    padding: 15px;
+    
+  
+  }
+  .view-container{
+    padding: 50px 50px;
+    
+  }
+   /*  end views section style */
+
+   /* START OUR ROOMS SECTION  */
+   .icon-custom{
+    color: #FEA116;
+   }
+   .room-item {
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  .room-container2{
+    padding-top: 100px;
+    display: flex;
+    
+  }
+  .price{
+    background-color: rgb(35, 33, 70);
+    color: #ffffff;
+    width: 100px;
+    text-align: center;
+   
+    
+  }
+  .book-now-link:hover {
+    background-color: rgb(35, 33, 70);
+    color: white; 
+  }
+      /* END OUR ROOMS SECTION  */
+ 
+/* ______________________________booking page____________________________________ */ 
+
+.form-text-custom{
+  font-weight: bold;
+}
+/* ______________________________CONTACT US page____________________________________ */ 
+#map {
+  height: 400px;
+  width: 100%;
+}
+/* _______________________________PAYMENT SECTION STYLE________________________________ */
+
+  .card-details {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    max-width: 400px; 
+    margin: 0 auto; 
+  }
+
+  .card-details h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #fea116;
+  }
+
+  
+
+  .form-group.card-number,
+  .form-row.date-number,
+  .form-group.cvv-number,
+  .form-group.nameholder-number {
+    margin-bottom: 15px; 
+  }
+
+  .submit-now-btn {
+    width: 100%;
+  }
+
+ 
+  
+
+
+
+
+
+
